@@ -101,6 +101,14 @@ def subscribe_channels(youtube_channels: list[YoutubeChannel]) -> None:
             print(e)
 
 
+def subscribe_channels_from_json(filename: str) -> None:
+    with open(filename, "r") as f:
+        channel_data = json.load(f)
+    
+    youtube_channels = [YoutubeChannel(**channel) for channel in channel_data]
+    subscribe_channels(youtube_channels)
+
+
 def main():
     print("--------------------------------------------------------------------------------------------")
     print("Click the link and choose the google account to fetch the youtube subscribed channels from: ")
