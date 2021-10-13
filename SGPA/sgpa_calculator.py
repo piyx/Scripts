@@ -23,33 +23,36 @@ from dataclasses import dataclass
 with open('semester_subjects.json', 'r') as f:
     semesters = json.load(f)["semesters"]
 
+
 @dataclass
 class Subject:
-	name: str
-	credit: int
-	gradepoint: int
-		
+    name: str
+    credit: int
+    gradepoint: int
+
 
 def SGPA(subjects: list[Subject]) -> float:
-	gradepoints = sum(sub.gradepoint * sub.credit for sub in subjects)
-	totalcredits = sum(sub.credit for sub in subjects)
-	return gradepoints/totalcredits
+    gradepoints = sum(sub.gradepoint * sub.credit for sub in subjects)
+    totalcredits = sum(sub.credit for sub in subjects)
+    return gradepoints/totalcredits
+
 
 allsubjects = []
 
 for i, semester in enumerate(semesters, 1):
-	print(f"Enter gradepoint for semester {i}")
-	subjects = []
-	for subjectname, credit in semester.items():
-		gradepoint = int(input(f"{subjectname}: "))
-		subjects.append(Subject(
-			name=subjectname,
-			credit=credit,
-			gradepoint=gradepoint
-		))
-	
-	allsubjects.extend(subjects)
-	print(f"\nSGPA for SEMESTER {i} is: {SGPA(subjects):.2f}\n")
+    print(f"Enter gradepoint for semester {i}")
+    subjects = []
+    for subjectname, credit in semester.items():
+        gradepoint = int(input(f"{subjectname}: "))
+        subjects.append(Subject(
+            name=subjectname,
+            credit=credit,
+            gradepoint=gradepoint
+        ))
+
+    allsubjects.extend(subjects)
+    print(f"\nSGPA for SEMESTER {i} is: {SGPA(subjects):.2f}\n")
 
 # Overall CGPA is same as SGPA, but for all subjects of all semesters (Except for failed subs)
-print(f"\nOverall CGPA is: {SGPA(list(filter(lambda x: x.gradepoint != 0, allsubjects)))}")
+print(
+    f"\nOverall CGPA is: {SGPA(list(filter(lambda x: x.gradepoint != 0, allsubjects)))}")
