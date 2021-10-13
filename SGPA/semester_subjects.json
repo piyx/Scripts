@@ -1,0 +1,72 @@
+{
+    "semesters": [
+        {
+            "Calculus And Linear Algebra": 4,
+            "Engineering Physics": 4,
+            "Basic Electrical Engineering": 3,
+            "Elements Of Civil Engineering": 3,
+            "Engineering Graphics": 3,
+            "Engineering Physics Lab": 1,
+            "Basic Electrical Egnineering Lab": 1,
+            "Technical English": 1
+        },
+    
+        {
+            "Advanced Calculus And Numerical Methods": 4,
+            "Engineering Chemistry": 4,
+            "C Programming For Problem Solving": 3,
+            "Basic Electronics": 3,
+            "Elements Of Mechanical Engineering": 3,
+            "Engineering Chemistry Lab": 1,
+            "C Programming Lab": 1,
+            "Technical English 2": 1
+        },
+    
+        {
+            "Transform Calculus, Fourier Series and Numerical Techniques": 3,
+            "Data Structures And Applications": 4,
+            "Analog And Digital Electronics": 3,
+            "Computer Organization": 3,
+            "Software Engineering": 3,
+            "Discrete Mathematical Structures": 3,
+            "Analog And Digital Electronics Lab": 2,
+            "Data Structures Lab": 2,
+            "Kannada": 1
+        },
+    
+        {
+            "Complex Analysis, Probability And Statistical Methods": 3,
+            "Design And Analysis Of Algorithms": 4,
+            "Operating Systems": 3,
+            "Microcontroller And Embedded Systems": 3,
+            "Object Oriented Concepts": 3,
+            "Data Communication": 3,
+            "Design And Analysis Of Algorithms Lab": 2,
+            "Microcontroller And Embedded Systems Lab": 2,
+            "Constitution Of India": 1
+        },
+    
+        {
+            "Management And Entrepreneurship for IT Industry": 3,
+            "Computer Networks And Security": 4,
+            "Database Management System": 4,
+            "Automata Theory And Computability": 3,
+            "Application Developement Using Python": 3,
+            "Unix Programming": 3,
+            "Computer Networks Lab": 2,
+            "Database Management System Lab": 2,
+            "Environmental Studies": 1
+        },
+
+        {
+            "File Strucutres / System Software And Compilers": 4,
+            "Open Elective": 3,
+            "Software Testing/ Computer Graphics": 4,
+            "Web Technolgy and its applications": 4,
+            "Professional Elective": 3,
+            "Software Testing Lab / Computer Graphics Lab": 2,
+            "File Structures Lab / System Software And Compilers Lab": 2,
+            "Mobile App Development": 2
+        }
+    ]
+}
