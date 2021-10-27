@@ -41,7 +41,7 @@ def get_subscribed_channels() -> list[YoutubeChannel]:
     while fetch:
         request = youtube.subscriptions().list(
             part="id,snippet",
-            channelId="UC3w7CEjnByJQcOdsltrqqdA",
+            mine=True,
             pageToken=page_token
         )
         response = request.execute()
