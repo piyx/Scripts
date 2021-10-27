@@ -102,7 +102,7 @@ def subscribe_channels(youtube_channels: list[YoutubeChannel]) -> None:
 
 
 def subscribe_channels_from_json(filename: str) -> None:
-    with open(filename, "r") as f:
+    with open(filename, "r", encoding='utf-8') as f:
         channel_data = json.load(f)
     
     youtube_channels = [YoutubeChannel(**channel) for channel in channel_data]
