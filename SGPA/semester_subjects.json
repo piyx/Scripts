@@ -10,7 +10,6 @@
             "Basic Electrical Egnineering Lab": 1,
             "Technical English": 1
         },
-    
         {
             "Advanced Calculus And Numerical Methods": 4,
             "Engineering Chemistry": 4,
@@ -21,7 +20,6 @@
             "C Programming Lab": 1,
             "Technical English 2": 1
         },
-    
         {
             "Transform Calculus, Fourier Series and Numerical Techniques": 3,
             "Data Structures And Applications": 4,
@@ -33,7 +31,6 @@
             "Data Structures Lab": 2,
             "Kannada": 1
         },
-    
         {
             "Complex Analysis, Probability And Statistical Methods": 3,
             "Design And Analysis Of Algorithms": 4,
@@ -45,7 +42,6 @@
             "Microcontroller And Embedded Systems Lab": 2,
             "Constitution Of India": 1
         },
-    
         {
             "Management And Entrepreneurship for IT Industry": 3,
             "Computer Networks And Security": 4,
@@ -57,7 +53,6 @@
             "Database Management System Lab": 2,
             "Environmental Studies": 1
         },
-
         {
             "File Strucutres / System Software And Compilers": 4,
             "Open Elective": 3,
@@ -67,6 +62,15 @@
             "Software Testing Lab / Computer Graphics Lab": 2,
             "File Structures Lab / System Software And Compilers Lab": 2,
             "Mobile App Development": 2
+        },
+        {
+            "Artificial Intelligence And Machine Learning": 4,
+            "Big Data Analytics": 4,
+            "PE2 (User Interface Design)": 3,
+            "PE3 (Natural Langauge Processing)": 3,
+            "OE-B (Electric Vehicles)": 3,
+            "Artificial Intelligence And Machine Learning Lab": 2,
+            "Project Work Phase 1": 1
         }
     ]
 }

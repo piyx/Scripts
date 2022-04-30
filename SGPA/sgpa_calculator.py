@@ -53,6 +53,4 @@ for i, semester in enumerate(semesters, 1):
     allsubjects.extend(subjects)
     print(f"\nSGPA for SEMESTER {i} is: {SGPA(subjects):.2f}\n")
 
-# Overall CGPA is same as SGPA, but for all subjects of all semesters (Except for failed subs)
-print(
-    f"\nOverall CGPA is: {SGPA(list(filter(lambda x: x.gradepoint != 0, allsubjects)))}")
+print(f"\nOverall CGPA is: {SGPA(allsubjects)}")
